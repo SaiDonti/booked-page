@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You're booked | Sai Donti</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Your virtual coffee with Sai Donti is booked.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --maroon:#591d27; --ink:#1d1d1d; --muted:#5c5c5c; --line:#e6dfe0; --tint:#f4ecee; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Figtree, system-ui, -apple-system, "Segoe UI", sans-serif; color:var(--ink); background:#f7f4f1; -webkit-font-smoothing:antialiased; }
+  header { display:flex; justify-content:space-between; align-items:center; padding:20px 40px; background:#fff; border-bottom:1px solid #ece7e3; }
+  .brand { font-weight:600; color:var(--maroon); font-size:18px; text-decoration:none; }
+  main { display:flex; justify-content:center; padding:48px 20px 64px; }
+  .inner { width:100%; max-width:640px; text-align:center; background:#fff; border-radius:20px; padding:44px 40px 40px; box-shadow:0 4px 24px rgba(89,29,39,.06); border:1px solid #efe9e5; }
+  .av { width:118px; height:118px; border-radius:50%; object-fit:cover; border:4px solid #fff; box-shadow:0 2px 12px rgba(0,0,0,.15); }
+  .check { display:inline-flex; align-items:center; gap:10px; background:var(--tint); color:var(--maroon); border-radius:999px; padding:10px 22px 10px 12px; font-size:20px; font-weight:700; margin:20px 0 14px; }
+  .check i { font-style:normal; width:28px; height:28px; border-radius:50%; background:var(--maroon); color:#fff; display:inline-flex; align-items:center; justify-content:center; font-size:15px; }
+  h1 { font-size:52px; color:var(--maroon); font-weight:600; letter-spacing:-.01em; line-height:1.05; text-wrap:balance; }
+  .sub, .np, .foot { text-wrap:balance; }
+  .sub { font-size:20px; margin-top:10px; color:#333; }
+  .np { font-size:17px; color:var(--muted); line-height:1.6; margin:26px auto 22px; max-width:470px; }
+  .links { display:flex; flex-direction:column; gap:12px; }
+  .lk { display:flex; align-items:center; justify-content:space-between; border:1.5px solid var(--line); border-radius:12px; padding:15px 20px; font-size:16px; font-weight:600; color:var(--ink); text-align:left; text-decoration:none; transition:transform .15s ease, border-color .15s ease; }
+  .lk:hover { transform:translateY(-1px); border-color:var(--maroon); }
+  .lk small { display:block; font-weight:400; color:#888; font-size:13px; margin-top:2px; }
+  .lk.primary { background:var(--maroon); color:#fff; border-color:var(--maroon); }
+  .lk.primary small { color:#e9cfd4; }
+  .arr { font-size:20px; }
+  .foot { margin-top:26px; color:var(--muted); font-size:16px; line-height:1.6; }
+  .sig { font-weight:600; color:var(--maroon); margin-top:8px; font-size:18px; }
+  @media (max-width:600px) {
+    header { padding:16px 20px; }
+    main { padding:16px 12px 40px; }
+    .inner { padding:30px 18px 30px; border-radius:16px; }
+    .check { font-size:17px; padding:8px 18px 8px 10px; }
+    .check i { width:24px; height:24px; font-size:13px; }
+    .av { width:88px; height:88px; }
+    h1 { font-size:38px; }
+    .sub { font-size:17px; }
+    .np { font-size:15px; }
+    .lk { padding:13px 16px; font-size:15px; }
+  }
+</style>
+</head>
+<body>
+<header><a class="brand" href="https://saidonti.com">Sai Donti</a></header>
+<main>
+  <div class="inner">
+    <img class="av" src="sai.jpg" alt="Sai Donti">
+    <div><span class="check"><i>&#10003;</i>You're booked</span></div>
+    <h1>Looking forward to it.</h1>
+    <p class="sub">Details and the Google Meet link are in your email.</p>
+    <p class="np">No pressure at all, but if you want to learn a little about me before we talk, here's where to find me.</p>
+    <div class="links">
+      <a class="lk primary" href="https://saidonti.com" target="_blank" rel="noopener"><span>SaiDonti.com<small>Who I am, my story and my book</small></span><span class="arr">&rarr;</span></a>
+      <a class="lk" href="https://www.linkedin.com/in/saidonti" target="_blank" rel="noopener"><span>LinkedIn<small>linkedin.com/in/saidonti</small></span><span class="arr">&rarr;</span></a>
+      <a class="lk" href="https://www.instagram.com/sai.donti" target="_blank" rel="noopener"><span>Instagram<small>@sai.donti</small></span><span class="arr">&rarr;</span></a>
+    </div>
+    <p class="foot">If not, no worries. We'll get into it on the call.</p>
+    <p class="sig">Sai</p>
+  </div>
+</main>
+</body>
+</html>
